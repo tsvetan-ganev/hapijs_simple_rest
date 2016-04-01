@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_pplanner_test",
+  "version": "1.0.0",
+  "description": "Sample nodejs microservice webapp",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mihail Krastev <mlinuxgada@gmail.com> (http://mlinuxgada.info)",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^13.1.0",
+    "joi": "^8.0.4",
+    "mocha": "^2.4.5",
+    "mysql": "^2.10.2",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  }
+}
