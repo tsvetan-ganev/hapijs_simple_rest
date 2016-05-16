@@ -16,9 +16,15 @@ $ npm install
 ```
 * Copy the needed config files, and edit their contents to fit your needs:
 ```
-$ cp src/Config/general.js.sample src/Config/general.js
-$ cp src/Config/database.js.sample src/Config/database.js
+$ cp src/Config/general.ts.sample src/Config/general.ts
+$ cp src/Config/database.ts.sample src/Config/database.ts
 ```
+
+* Compile with :
+```
+$ tsc
+```
+
 * Run the node with : 
 ```
  $ node .

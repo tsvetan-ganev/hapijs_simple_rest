@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export = {
 	host: 'localhost',
 	port: 10001
 };
